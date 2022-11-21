@@ -13,7 +13,7 @@ const Quiz = () => {
           <div className="results-info">
             <div>You have completed the quiz.</div>
             <div>
-              You've got {quizState.correctAnswersCount} of &nbsp;
+              You&apos;ve got {quizState.correctAnswersCount} of &nbsp;
               {quizState.questions.length} right.
             </div>
           </div>
