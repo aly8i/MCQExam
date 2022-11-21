@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Light Studios</title>
-        <meta name="description" content="#1 Production Crew" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>MCQ Assestment</title>
+        <meta name="description" content="HTML Coding Assestment" />
+        <link rel="icon" href="/mcqicon.png" />
       </Head>
       <main className={styles.main}>
         <Quiz/>
