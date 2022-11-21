@@ -1,23 +1,23 @@
 const data = [
   {
-    question: "What does CSS stand for?",
+    question: "Which of these elements in HTML can be used for making a text bold?",
     incorrectAnswers: [
-      "Computer Style Sheets",
-      "Creative Style Sheets",
-      "Colorful Style Sheets",
+      "<a>",
+      "<br>",
+      "<pre>",
     ],
-    correctAnswer: "Cascading Style Sheets",
+    correctAnswer: "<b>",
   },
 
   {
     question:
-      "Where in an HTML document is the correct place to refer to an external style sheet?",
+      "Which tag do we use in HTML for inserting a line-break?",
     incorrectAnswers: [
-      "In the <body> section",
-      "At the end of the document",
-      "You can't refer to an external style sheet",
+      "<a>",
+      "<pre>",
+      "<b>",
     ],
-    correctAnswer: "In the <head> section",
+    correctAnswer: "<br>",
   },
   {
     question: "Which HTML tag is used to define an internal style sheet?",
@@ -30,16 +30,16 @@ const data = [
     correctAnswer: "style",
   },
   {
-    question: "Which is the correct CSS syntax?",
+    question: "How to create a hyperlink in HTML?",
     incorrectAnswers: [
-      "{body:color=black;}",
-      "{body;color:black;}",
-      "body:color=black;",
+      "<a url = “www.thinkandlearn.com” thinkandlearn.com /a>",
+      "<a> www.thinkandlearn.com <thinkandlearn.com /a>",
+      "<a link = “www.thinkandlearn.com”> thinkandlearn.com </a>",
     ],
-    correctAnswer: "body {color: black;}",
+    correctAnswer: "<a href = “www.thinkandlearn.com”> thinkandlearn.com </a>",
   },
   {
-    question: "How do you insert a comment in a CSS file?",
+    question: "How do you insert a comment in an HTML file?",
     incorrectAnswers: [
       "' this is a comment",
       "// this is a comment",
@@ -48,18 +48,18 @@ const data = [
     correctAnswer: "/* this is a comment */",
   },
   {
-    question: "Which property is used to change the background color?",
-    incorrectAnswers: ["color", "bgcolor", "bgColor"],
-    correctAnswer: "background-color",
+    question: "In HTML, how do we insert an image?",
+    incorrectAnswers: ["<img url = “jtp.png” />", "<img link = “jtp.png” />", "<img href = “jtp.png” />"],
+    correctAnswer: "<img src = “jtp.png” />",
   },
   {
-    question: "How do you add a background color for all <h1> elements?",
+    question: "Which tag is used in HTML5 for the initialization of the document type",
     incorrectAnswers: [
-      "all.h1 {background-color:#FFFFFF;}",
-      "h1.setAll {background-color:#FFFFFF;}",
-      "h1.all {background-color:#FFFFFF;}",
+      "<Doctype HTML>",
+      "<\Doctype html>",
+      "<Doctype>",
     ],
-    correctAnswer: "h1 {background-color:#FFFFFF;}",
+    correctAnswer: "<!DOCTYPE html>",
   },
 ];
 
